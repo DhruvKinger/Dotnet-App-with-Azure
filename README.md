@@ -24,12 +24,12 @@ You need to have a SQL Server that will host your database. If you already have 
 
 *	Then you have to choose SQL Databases.
 *	Next you need to fill in the following information.
- a.	Server name – the name of your new SQL Server.
- b.	Server admin login –  your server admin user name.
- c.	Password – Use a password that u can remember
- d.	Subscription – select an existing Microsoft Azure subscription you are having access to.
- e.	Resource group – select an existing resource group or create a new one. For more information on resource groups you can refer to the Microsoft documentation on  [Resource groups](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-overview#resource-groups).
- f.	Location – pick any location of your choice.
+*  a.	Server name – the name of your new SQL Server.
+*  b.	Server admin login –  your server admin user name.
+*  c.	Password – Use a password that u can remember
+*  d.	Subscription – select an existing Microsoft Azure subscription you are having access to.
+*  e.	Resource group – select an existing resource group or create a new one. For more information on resource groups you can refer to the Microsoft documentation on  [Resource groups](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-overview#resource-groups).
+*  f.	Location – pick any location of your choice.
 
 ![](https://github.com/DhruvKinger/Dotnet-App-with-Azure-/blob/master/Blog%20Folder/Screenshot%20(12).png)
 
@@ -71,6 +71,32 @@ You need to have a SQL Server that will host your database. If you already have 
 
 
 ![](https://github.com/DhruvKinger/Dotnet-App-with-Azure-/blob/master/Blog%20Folder/Screenshot%20(16).png)
+
++	Once Deployment is complete. Click on Close. You can find the database in Azure Portal .
+
++	Click on the connection strings for your database in Azure Sql Server . Copy ADO.NET connection string.
+
+![](https://github.com/DhruvKinger/Dotnet-App-with-Azure-/blob/master/Blog%20Folder/Screenshot%20(18).png)
+
+Task 3rd : Connection with the Application.
++	Open Visual Studio in your PC and find your Project.
+
+![](https://github.com/DhruvKinger/Dotnet-App-with-Azure-/blob/master/Blog%20Folder/Screenshot%20(20).png)
+
++ Open Web Config File in your Project.
+
+![](https://github.com/DhruvKinger/Dotnet-App-with-Azure-/blob/master/Blog%20Folder/Screenshot%20(22).png)
+
+*	Comment out this connection string and paste connection string copied from Azure Sql Database.
+
+![](https://github.com/DhruvKinger/Dotnet-App-with-Azure-/blob/master/Blog%20Folder/4th.png)
+
+*	Once you have pasted that connection string. Your connection with the Azure Database is established now. Now your Dotnet Application needs Internet for any querying.
+
+*	So, finally we have completed all our tasks. You can change the timeout for your database of your choice.
+
+
+
 
 
 
