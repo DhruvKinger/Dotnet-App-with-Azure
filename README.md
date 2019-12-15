@@ -6,10 +6,9 @@ This describes the detailed step by step procedure to connect Dotnet application
 # PREREQUISITES: You must use Microsoft SQL Server Management Studio 18.0 (or later)
 * Task 1st  : Create a SQL Server 
 You need to have a SQL Server that will host your database. If you already have a SQL Server than you can skip this step else follow the steps below :
-+	Navigate to the * [Azure Portal](https://azure.microsoft.com/en-gb/)
++	Navigate to the [Azure Portal](https://azure.microsoft.com/en-gb/)
 
-
-![](https://github.com/DhruvKinger/Rudhir-A-BDMS/blob/master/Forgithub/Screenshot%20(926).png)
+![](https://github.com/DhruvKinger/Dotnet-App-with-Azure-/blob/master/Blog Folder/Screenshot%20(926).png)
 
 + For reporting bug about an incorrect file not being processed, open a new issue.
 + PRs are always welcome to improve exisiting system and documentation too.:thumbsup:
