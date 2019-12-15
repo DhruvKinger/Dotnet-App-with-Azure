@@ -24,7 +24,7 @@ You need to have a SQL Server that will host your database. If you already have 
 
 *	Then you have to choose SQL Databases.
 *	Next you need to fill in the following information.
-* a.	Server name – the name of your new SQL Server.
++ a.	Server name – the name of your new SQL Server.
 * b.	Server admin login –  your server admin user name.
 * c.	Password – Use a password that u can remember
 * d.	Subscription – select an existing Microsoft Azure subscription you are having access to.
