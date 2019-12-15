@@ -8,7 +8,7 @@ This describes the detailed step by step procedure to connect Dotnet application
 You need to have a SQL Server that will host your database. If you already have a SQL Server than you can skip this step else follow the steps below :
 +	Navigate to the [Azure Portal](https://azure.microsoft.com/en-gb/)
 
-![](https://github.com/DhruvKinger/Dotnet-App-with-Azure-/blob/master/Blog Folder/Screenshot%20(926).png)
+![](https://github.com/DhruvKinger/Dotnet-App-with-Azure-/blob/master/Blog%20Folder/Screenshot%20(10).png)
 
 + For reporting bug about an incorrect file not being processed, open a new issue.
 + PRs are always welcome to improve exisiting system and documentation too.:thumbsup:
