@@ -24,12 +24,12 @@ You need to have a SQL Server that will host your database. If you already have 
 
 *	Then you have to choose SQL Databases.
 *	Next you need to fill in the following information.
-+ a.	Server name – the name of your new SQL Server.
-* b.	Server admin login –  your server admin user name.
-* c.	Password – Use a password that u can remember
-* d.	Subscription – select an existing Microsoft Azure subscription you are having access to.
-* e.	Resource group – select an existing resource group or create a new one. For more information on resource groups you can refer to the Microsoft documentation on  [Resource groups](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-overview#resource-groups).
-* f.	Location – pick any location of your choice.
+ a.	Server name – the name of your new SQL Server.
+ b.	Server admin login –  your server admin user name.
+ c.	Password – Use a password that u can remember
+ d.	Subscription – select an existing Microsoft Azure subscription you are having access to.
+ e.	Resource group – select an existing resource group or create a new one. For more information on resource groups you can refer to the Microsoft documentation on  [Resource groups](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-overview#resource-groups).
+ f.	Location – pick any location of your choice.
 
 ![](https://github.com/DhruvKinger/Dotnet-App-with-Azure-/blob/master/Blog%20Folder/Screenshot%20(12).png)
 
@@ -52,6 +52,28 @@ You need to have a SQL Server that will host your database. If you already have 
 +	On the next Screen, click Next.
 
 ![](https://github.com/DhruvKinger/Dotnet-App-with-Azure-/blob/master/Blog%20Folder/2nd.png)
+
++	The next screen asks you to fill in your Azure SQL server connection details. Now here comes the role of your remembering those passwords.
+
+![](https://github.com/DhruvKinger/Dotnet-App-with-Azure-/blob/master/Blog%20Folder/Screenshot%20(14).png)
+
+*	When Done Click Connect.
+
+*	If you haven’t already added a firewall rule in your Azure SQL Server  that enables communication from your local machine’s IP or range of IPs, the next screen enables you to configure one without leaving the SSMS interface. The wizard asks you to sign in with your Azure account and add a firewall rule for your IP address.
+
+![](https://github.com/DhruvKinger/Dotnet-App-with-Azure-/blob/master/Blog%20Folder/3rd.png)
+
+*	Next Screen will ask your database parameters. I have chosen Basic Plan and size 1 GB. You can chose of your choice.
+
+![](https://github.com/DhruvKinger/Dotnet-App-with-Azure-/blob/master/Blog%20Folder/Screenshot%20(15).png)
+
++	Click Next.
+
+
+![](https://github.com/DhruvKinger/Dotnet-App-with-Azure-/blob/master/Blog%20Folder/Screenshot%20(16).png)
+
+
+
 
 
 
